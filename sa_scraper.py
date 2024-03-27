@@ -13,4 +13,4 @@ for i in id:
             f.write(res.content)
             print(f'{i}.jpg'+' downloaded')
     except:
-        print("There was an error")
+        print("There was an error with downloading" + f'{i}.jpg')
