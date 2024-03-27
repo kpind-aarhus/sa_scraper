@@ -2,7 +2,7 @@ import requests
 from pathlib import Path
 
 #Enter ID of first linkID and last linkID+1.
-id = range(37782505, 37782506)
+id = range(37782505, 37782994)
 
 #For each ID, the script access the link corresponding to the ID and downloads the image within and saves the image as this ID.
 for i in id:
