@@ -1,6 +1,7 @@
 # sa_scraper
 A webscraper for downloading images from the Danish National Archives' online service, Arkivalier online. \
 Please ask the National Archives for permission before downloading vast amounts of data, and please use the scraper outside of peak hours (which is usually during daylight hours). \
+You can read more about conditions and Arkivalier online (in Danish) here: https://www.rigsarkivet.dk/arkivalieronline/ \
 The script requires the Python library requests.
 
 ## How it works
