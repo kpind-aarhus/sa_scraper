@@ -9,7 +9,7 @@ for i in id:
     res = requests.get(f'https://ao.sa.dk/ao/data.ashx?bid={i}')
     try:
         res.raise_for_status()
-        with open(Path('download', f'{i}.jpg'), 'wb') as f: #Check if the image format by downloading a sample if you are uncertain whether it is .jpg.
+        with open(Path('download', f'{i}.jpg'), 'wb') as f: #Check the image format by downloading a sample if you are uncertain whether it is .jpg.
             f.write(res.content)
             print(f'{i}.jpg'+' downloaded')
     except:
