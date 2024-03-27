@@ -1,6 +1,7 @@
 # sa_scraper
 A webscraper for downloading images from the Danish National Archives' online service, Arkivalier online. \
-Please ask the National Archives for permission before downloading vast amounts of data, and please use the scraper outside of peak hours (which is usually during daylight hours)
+Please ask the National Archives for permission before downloading vast amounts of data, and please use the scraper outside of peak hours (which is usually during daylight hours). \
+The script requires the Python library requests.
 
 ## How it works
 The scraper is fairly simple. If you want to download an entire collection of images (for example a protocol), you access it through Arkivarlier online, find the first and last images of the collection and inspect their link id.
