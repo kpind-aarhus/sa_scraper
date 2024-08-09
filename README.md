@@ -5,7 +5,8 @@ You can read more about conditions and Arkivalier online (in Danish) here: https
 The script requires the Python library requests.
 
 ## How it works
-The scraper is fairly simple. If you want to download an entire collection of images (for example a protocol), you access it through Arkivarlier online, find the first and last images of the collection and inspect their link id.
+The scraper is fairly simple. If you want to download an entire collection of images (for example a protocol), you access it through Arkivarlier online, find the first and last images of the collection and inspect their link id. \
+**NB: The script only works as intended if the image ID's in a collection are consecutive.** \
 For the 1623 protocol of the A line of the court books of Viborg Landsting, these are their first and last images: \
 https://www.sa.dk/ao-soegesider/da/billedviser?epid=17044802#134559,37782505 \
 https://www.sa.dk/ao-soegesider/da/billedviser?epid=17044802#134559,37782993 \
